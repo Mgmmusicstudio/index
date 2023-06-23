@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 800px) {
+    .MGM-logo img,
+    .resp-bg,
+    .md-about-us,
+    .mb-message,
+    .mb-message-para,
+    .mb-about-us-para,
+    .mb-gallery{
+        display:none;
+    }
+    .reps-nav{
+        display: none;
+    }
+
+}
+@media (max-width: 800px) {
+    .nav-button,
+    .MGM-logo-nav,
+    .bg,
+    .join-btn,
+    #about-us-pc,
+    .message,
+    .our-service-list,
+    .ba-img img,
+    .r-br,
+    .pc-gallery{
+        display: none;
+    }
+    .MGM-logo img{
+        display: block;
+        width: 30%;
+    }
+    .reps-nav span a{
+        text-decoration: none;
+        color: white;
+        padding: 0 5px 0 5px;
+        font-size:14px;
+    }
+    .md-about-us img{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .md-about-us-title{
+        color: white;
+        font-size: 3em;
+        text-align: center;
+        font-family: "DM Sans"; 
+    }
+    .md-about-us-para{
+        color: white;
+        font-size: 1em;
+        width: 90%;
+    }
+    .mb-message{
+        width: 90%;
+        padding-top: 25px;
+    }
+    .mb-message-para p{
+        color: white;
+        font-size: 1.em;
+        width: 85%;
+    }
+    .our-service,
+    .gallery{
+        width: 55%;
+        padding-top: 15px;
+    }
+    .mb-about-us-para{
+        padding: 20px;
+    }
+    .mb-service-list{
+      color: white;
+    }
+    .ba-title{
+        padding: 10px;
+        font-size: 2em;
+    }
+    .ba-opt{
+        background-color: rgb(255, 255, 255);
+    }
+    .ba-link a img {
+        width: 20%;
+        padding: 5px;
+    }
+    .gallery{
+        margin-top: 10px;
+    }
+    .mb-gallery{
+        padding-top: 25px;
+    }
+    .contact-us {
+        width: 70%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .contact-opt{
+        padding-top: 25px;
+    }
+    footer span a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    }
+    footer span a:hover{
+    color: rgb(0, 217, 255);
+    }
+    .reserved{
+    font-size: 10px;
+    color: white;
+    } 
+}
